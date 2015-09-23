@@ -3,43 +3,52 @@
 
 //Bottom of Handle
 {
-fill(0 ,0 ,0);
+fill(0);
+beginShape();
 size(170 ,244);
-line(85 ,240 , 70 ,230);
-line(70 ,230 ,70 ,220);
-line(70 ,220 ,80 ,220);
-line(80 ,220 ,90 ,220);
-line(90 ,220 ,100 ,220);
-line(100 ,220 ,100 ,230);
-line(100 ,230 ,85 ,240);
+vertex(85 ,240);
+vertex(70 ,230);
+vertex(70 ,220);
+vertex(80 ,220);
+vertex(90 ,220);
+vertex(100 ,220);
+vertex(100 ,230);
+endShape();
 }
 
 
 //Middle Of handle
 {
-line(80 ,220 ,90 ,220);
-line(90 ,220 ,90 ,190);
-line(90 ,190 ,80 ,190);
-line(80, 190 ,80 ,220);
+beginShape();
+vertex(80 ,220);
+vertex(90 ,220);
+vertex(90 ,190);
+vertex(80, 190);
+endShape();
 }
 
 //Ice part of the club
-line(80 ,190 ,60 ,180);
-line(60, 180 ,60 ,170);
-line(60, 170 ,50 ,170);
-line(50 ,170 ,60 ,160);
-line(60 ,160 ,30 ,100);
-line(30 ,100 ,50 ,110);
-line(50 ,110 ,40 ,70);
-line(40 ,70 ,40 ,50);
-line(40 ,50 ,60 ,20);
-line(60, 20, 100 ,20);
-line(100 ,20 ,120 ,50);
-line(120, 50 ,110 ,70);
-line(110 ,70 ,110 ,110);
-line(110 ,110 ,120 ,120);
-line(120 ,120 ,110 ,160);
-line(110 ,160 ,120 ,170);
-line(120 ,170 ,110 ,170);
-line(110 ,170 ,110 ,180);
-line(110 ,180 ,90 ,190);
+{
+beginShape();
+vertex(80 ,190);
+vertex(60, 180);
+vertex(60, 170 );
+vertex(50 ,170);
+vertex(60 ,160);
+vertex(30 ,100);
+vertex(50 ,110);
+vertex(40 ,70);
+vertex(40 ,50);
+vertex(60, 20);
+vertex(100 ,20);
+vertex(120, 50);
+vertex(110 ,70);
+vertex(110 ,110);
+vertex(120 ,120);
+vertex(110 ,160);
+vertex(120 ,170);
+vertex(110 ,170);
+vertex(110 ,180);
+vertex(90, 190);
+endShape();
+}
