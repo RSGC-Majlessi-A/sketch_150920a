@@ -1,10 +1,10 @@
 //Name Arman
 //Project : Trundle Club
+noStroke();
 
 //Bottom of Handle
-{
-fill(0);
 beginShape();
+fill(0);
 size(170 ,244);
 vertex(85 ,240);
 vertex(70 ,230);
@@ -13,22 +13,21 @@ vertex(80 ,220);
 vertex(90 ,220);
 vertex(100 ,220);
 vertex(100 ,230);
+vertex(90 , 235);
 endShape();
-}
 
 
 //Middle Of handle
-{
+fill(93 ,44 ,25);
 beginShape();
 vertex(80 ,220);
 vertex(90 ,220);
 vertex(90 ,190);
 vertex(80, 190);
 endShape();
-}
 
 //Ice part of the club
-{
+fill(31 ,148 ,234);
 beginShape();
 vertex(80 ,190);
 vertex(60, 180);
@@ -51,4 +50,3 @@ vertex(110 ,170);
 vertex(110 ,180);
 vertex(90, 190);
 endShape();
-}
