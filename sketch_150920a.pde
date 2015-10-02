@@ -1,7 +1,8 @@
 //Name Arman
 //Project : Trundle Club
-noStroke();
-
+noStroke(); 
+fill(255, 255, 255);
+rect(0 ,0 ,170 ,244);
 //Bottom of Handle
 beginShape();
 fill(0);
@@ -17,8 +18,12 @@ vertex(90 , 235);
 endShape();
 
 
-//Middle Of handle
-fill(93 ,44 ,25);
+for (int y = 220; y > 190; y--) {
+  strokeWeight(1);
+  stroke(y);
+  line(80, y, 90, y);
+  println(y);
+}
 beginShape();
 vertex(80 ,220);
 vertex(90 ,220);
@@ -27,7 +32,7 @@ vertex(80, 190);
 endShape();
 
 //Ice part of the club
-fill(31 ,148 ,234);
+fill(31 ,90 ,255);
 beginShape();
 vertex(80 ,190);
 vertex(60, 180);
