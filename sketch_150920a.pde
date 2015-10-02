@@ -27,10 +27,10 @@ for (int y = 220; y > 180; y--) {
   println(y);
 }
 
-
+  
 //Ice part of the club
 noStroke();
-fill(236, 66, 69);
+fill(234, 85, 71);
 beginShape();
 vertex(80, 190);
 vertex(60, 180);
