@@ -22,7 +22,7 @@ endShape();
 
 for (int y = 220; y > 180; y--) {
   strokeWeight(1);
-  stroke(40, 63, 252 - y);
+  stroke(40, 63, 232 - y);
   line(80, y, 90, y);
   println(y);
 }
