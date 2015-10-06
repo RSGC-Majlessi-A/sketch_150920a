@@ -1,10 +1,8 @@
 //Name Arman
 //Project : Trundle Club
 
-
 size(170, 244);
 colorMode(HSB, 360 ,100 ,100);
-
 noStroke(); 
 //Bottom of Handle
 beginShape();
